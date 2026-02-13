@@ -1,2 +1,2 @@
-# RAG-based-PDF-Question-Answering-using-LangChain-and-FLAN-T5
+# RAG-based PDF Question Answering using LangChain and FLAN-T5
 A Retrieval-Augmented Generation (RAG) based question-answering system that extracts relevant context from PDF documents using LangChain, FAISS, and sentence-transformer embeddings, and generates grounded answers using the FLAN-T5 language model. Implemented in Python with Hugging Face Transformers to enable accurate, context-aware responses.
