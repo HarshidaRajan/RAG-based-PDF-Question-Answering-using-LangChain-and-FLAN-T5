@@ -4,7 +4,8 @@ A Retrieval Augmented Generation (RAG)-based question-answering system that extr
 Colab Notebook Link:
 https://colab.research.google.com/drive/1voS5gLM3bqPE3JpWsMz8DkMapo8hAse3?usp=sharing
 
-
+## RAG Pipeline Architecture
+PDF Loader → Document Chunking → Embeddings → FAISS Retriever → FLAN-T5 Generator
 
 ## Workflow
 1. Load research paper PDF
@@ -41,3 +42,8 @@ Any research paper PDF
 
 Example paper used:
 https://www.sciencedirect.com/science/article/pii/S0164121224003017
+
+
+
+## Output
+Given a question, the system retrieves the most relevant text chunks and generates a concise answer strictly based on the document context.
